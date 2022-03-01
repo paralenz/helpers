@@ -567,10 +567,10 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@paralenz/eslint-config-typescript-react@^1.0.5":
-  version "1.0.5"
-  resolved "https://npm.pkg.github.com/download/@paralenz/eslint-config-typescript-react/1.0.5/5877b0439f300b46ddb66f90aa413de4cbced7ffd4a483aad4e392c80ed63878#9a3ecbb731470b4850e80552591f4a5545d0025a"
-  integrity sha512-mFf3FnM5enl34MnPHy064tENqfO5dhZfwfhPymAp605ShCkJhkDXYCTVu327HjGdUsiojmzDjvL7v/+9BUfjCA==
+"@paralenz/eslint-config-typescript-react@^1.0.7":
+  version "1.0.7"
+  resolved "https://npm.pkg.github.com/download/@paralenz/eslint-config-typescript-react/1.0.7/b761c5cbc1ce82336db7c38d606e050e84fe95a6f58f0db312e79bf5848519de#ca288f1f165963e6a71f131e29b96d6a5a4197e0"
+  integrity sha512-ZVuCPlcrsdfHb13LvLwWnn87e2Yg95gYz4HaIKjCZZZeS1nvFDKc2+sHZcMn41TazWFHNBX7zcD6jsF7oD/aZA==
   dependencies:
     "@typescript-eslint/eslint-plugin" "^5.3.0"
     "@typescript-eslint/parser" "^5.3.0"
@@ -3959,10 +3959,10 @@ typedarray-to-buffer@^3.1.5:
   dependencies:
     is-typedarray "^1.0.0"
 
-typescript@^4.5.5:
-  version "4.5.5"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.5.5.tgz#d8c953832d28924a9e3d37c73d729c846c5896f3"
-  integrity sha512-TCTIul70LyWe6IJWT8QSYeA54WQe8EjQFU4wY52Fasj5UKx88LNYKCgBEHcOMOrFF1rKGbD8v/xcNWVUq9SymA==
+typescript@^4.6.2:
+  version "4.6.2"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.6.2.tgz#fe12d2727b708f4eef40f51598b3398baa9611d4"
+  integrity sha512-HM/hFigTBHZhLXshn9sN37H085+hQGeJHJ/X7LpBWLID/fbc2acUMfU+lGD98X81sKP+pFa9f0DZmCwB9GnbAg==
 
 unbox-primitive@^1.0.1:
   version "1.0.1"
