@@ -13,9 +13,13 @@ jobs:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
         with:
           token: ${{ secrets.NPM_AUTH_TOKEN }}
-      - run: yarn lint
-      - run: yarn test
-      - run: yarn build
+      - name: Lint
+        run: yarn lint
+      - name: Test
+        run: yarn test
+      - name: Build
+        run: yarn build
+      - name: Publish
+        run: yarn publish
       - name: Tag and Release
         uses: paralenz/actions/make-release@v1.2.3
-      - run: yarn publish
