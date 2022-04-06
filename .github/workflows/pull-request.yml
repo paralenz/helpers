@@ -9,33 +9,15 @@ jobs:
     steps:
       - uses: paralenz/actions/gitmoji@v2.1.1
 
-  setup:
-    name: Setup
+  main:
+    name: Main
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
       - uses: paralenz/actions/setup-node@v2.1.1
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
         with:
           token: ${{ secrets.NPM_AUTH_TOKEN }}
-
-  lint:
-    name: Lint
-    runs-on: ubuntu-latest
-    needs: [setup]
-    steps:
-      - uses: actions/checkout@v3
-      - uses: paralenz/actions/setup-node@v2.1.1
       - name: Run linting
         run: yarn lint
-
-  test:
-    name: Test
-    runs-on: ubuntu-latest
-    needs: [setup]
-    steps:
-      - uses: actions/checkout@v3
-      - uses: paralenz/actions/setup-node@v2.1.1
       - name: Run tests
         run: yarn test
