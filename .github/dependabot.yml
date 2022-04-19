@@ -8,13 +8,13 @@ updates:
   - package-ecosystem: npm
     directory: /
     schedule:
-      interval: daily
+      interval: weekly
     commit-message:
       prefix: ⬆️
 
   - package-ecosystem: github-actions
     directory: /
     schedule:
-      interval: daily
+      interval: weekly
     commit-message:
       prefix: 👷
